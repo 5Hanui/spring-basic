@@ -8,7 +8,7 @@ public class MemberServiceTest {
     MemberService memberService = new MemberServiceImpl();
 
     @Test
-    void Join() {
+    void join() {
         // given
         Member member = new Member(1L, "memberA", Grade.VIP);
 
